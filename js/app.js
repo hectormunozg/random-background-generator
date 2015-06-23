@@ -14,6 +14,16 @@ var checkColor = function() {
 	}
 }
 
+//click event
+$('#colorGenerator').click(function() {	
+	// generate random color
+	generateColor();
+	checkColor();
+	// add style to body background
+	$('body').css('background-color', color); 
+	// add value to input
+	$('#colorValue').attr('value', color);
+	// store color value in array colors
+	colors.push(color);
 
-
-
+});
