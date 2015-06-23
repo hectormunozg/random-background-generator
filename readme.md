@@ -1,4 +1,4 @@
-# jQuery Background Generator (check [demo]())
+# jQuery Background Generator (check [demo](http://hectormunozg.github.io/random-background-generator/))
 
 
 ## Credits
