@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>jQuery Background Golor Generator</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <h1 class="main-title">Ultra simple jQuery Lightbox (view on <a href="#">GitHub</a>)</h1>
+      <h2 class="subtitle">by <a href="http://twitter.com/hectormunozg">Héctor Muñoz</a></h2>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="description">Just press the button, generate a background color and copy it if you like it! You can view this project on <a href="#">GitHub</a>.</p>
+        <h3>Credits</h3>
+        <ul>
+          <li>Basic styling by <a href="http://getbootstrap.com">Bootstrap 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="btn-wrap">
+    <button class="btn btn-success btn-lg" id="colorGenerator">I want another color!</button>
+    <div class="input-wrap">
+      <input type="text" value="#ffffff" id="colorValue" class="form-control" onclick="this.focus();this.select()" readonly="readonly">  
+    </div>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
